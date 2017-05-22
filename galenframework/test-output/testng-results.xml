@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="95940" started-at="2017-05-21T19:56:34Z" finished-at="2017-05-21T19:58:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="95940" started-at="2017-05-21T19:56:34Z" finished-at="2017-05-21T19:58:10Z">
+      <class name="com.testapp.galenframework.regression.TestsCases_galenframeworkpage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testapp.galenframework.regression.TestsCases_galenframeworkpage@5c3bd550]" name="setup" is-config="true" duration-ms="53107" started-at="2017-05-21T14:56:34Z" finished-at="2017-05-21T14:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginAlphanumerical_Pass(java.lang.String, java.lang.String)[pri:0, instance:com.testapp.galenframework.regression.TestsCases_galenframeworkpage@5c3bd550]" name="loginAlphanumerical_Pass" duration-ms="7370" started-at="2017-05-21T14:57:27Z" data-provider="TestData" finished-at="2017-05-21T14:57:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0789545762651]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAlphanumerical_Pass -->
+        <test-method status="PASS" signature="loginAlphanumerical_User(java.lang.String, java.lang.String)[pri:0, instance:com.testapp.galenframework.regression.TestsCases_galenframeworkpage@5c3bd550]" name="loginAlphanumerical_User" duration-ms="3708" started-at="2017-05-21T14:57:34Z" data-provider="TestData" finished-at="2017-05-21T14:57:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234534645878797908]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAlphanumerical_User -->
+        <test-method status="PASS" signature="loginAlphanumerical_User_and_Pass(java.lang.String, java.lang.String)[pri:0, instance:com.testapp.galenframework.regression.TestsCases_galenframeworkpage@5c3bd550]" name="loginAlphanumerical_User_and_Pass" duration-ms="14517" started-at="2017-05-21T14:57:38Z" data-provider="TestData" finished-at="2017-05-21T14:57:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[14312412346y789]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456354787909]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAlphanumerical_User_and_Pass -->
+        <test-method status="PASS" signature="loginBasic_SQLInjection(java.lang.String, java.lang.String)[pri:0, instance:com.testapp.galenframework.regression.TestsCases_galenframeworkpage@5c3bd550]" name="loginBasic_SQLInjection" duration-ms="1431" started-at="2017-05-21T14:57:52Z" data-provider="TestData" finished-at="2017-05-21T14:57:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[105 OR 1=1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[105 OR 1=1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBasic_SQLInjection -->
+        <test-method status="PASS" signature="loginBlankSpacePass_CorrectUserandPass(java.lang.String, java.lang.String)[pri:0, instance:com.testapp.galenframework.regression.TestsCases_galenframeworkpage@5c3bd550]" name="loginBlankSpacePass_CorrectUserandPass" duration-ms="1174" started-at="2017-05-21T14:57:54Z" data-provider="TestData" finished-at="2017-05-21T14:57:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBlankSpacePass_CorrectUserandPass -->
+        <test-method status="PASS" signature="loginBlankSpacePass_and_User_CorrectUserandPass(java.lang.String, java.lang.String)[pri:0, instance:com.testapp.galenframework.regression.TestsCases_galenframeworkpage@5c3bd550]" name="loginBlankSpacePass_and_User_CorrectUserandPass" duration-ms="1187" started-at="2017-05-21T14:57:55Z" data-provider="TestData" finished-at="2017-05-21T14:57:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ testuser@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBlankSpacePass_and_User_CorrectUserandPass -->
+        <test-method status="PASS" signature="loginBlankSpaceUser_CorrectUserandPass(java.lang.String, java.lang.String)[pri:0, instance:com.testapp.galenframework.regression.TestsCases_galenframeworkpage@5c3bd550]" name="loginBlankSpaceUser_CorrectUserandPass" duration-ms="1180" started-at="2017-05-21T14:57:56Z" data-provider="TestData" finished-at="2017-05-21T14:57:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ testuser@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBlankSpaceUser_CorrectUserandPass -->
+        <test-method status="PASS" signature="loginBlankSpacesOnly(java.lang.String, java.lang.String)[pri:0, instance:com.testapp.galenframework.regression.TestsCases_galenframeworkpage@5c3bd550]" name="loginBlankSpacesOnly" duration-ms="1257" started-at="2017-05-21T14:57:57Z" data-provider="TestData" finished-at="2017-05-21T14:57:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[                      ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[                      ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBlankSpacesOnly -->
+        <test-method status="PASS" signature="loginCorrectPass_WrongUser(java.lang.String, java.lang.String)[pri:0, instance:com.testapp.galenframework.regression.TestsCases_galenframeworkpage@5c3bd550]" name="loginCorrectPass_WrongUser" duration-ms="1052" started-at="2017-05-21T14:57:59Z" data-provider="TestData" finished-at="2017-05-21T14:58:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser10@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCorrectPass_WrongUser -->
+        <test-method status="PASS" signature="loginCorrectUser_WrongPass(java.lang.String, java.lang.String)[pri:0, instance:com.testapp.galenframework.regression.TestsCases_galenframeworkpage@5c3bd550]" name="loginCorrectUser_WrongPass" duration-ms="1047" started-at="2017-05-21T14:58:00Z" data-provider="TestData" finished-at="2017-05-21T14:58:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCorrectUser_WrongPass -->
+        <test-method status="PASS" signature="loginEmptyPasswordOnly(java.lang.String, java.lang.String)[pri:0, instance:com.testapp.galenframework.regression.TestsCases_galenframeworkpage@5c3bd550]" name="loginEmptyPasswordOnly" duration-ms="1022" started-at="2017-05-21T14:58:01Z" data-provider="TestData" finished-at="2017-05-21T14:58:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginEmptyPasswordOnly -->
+        <test-method status="PASS" signature="loginEmptyUserandEmptyPass(java.lang.String, java.lang.String)[pri:0, instance:com.testapp.galenframework.regression.TestsCases_galenframeworkpage@5c3bd550]" name="loginEmptyUserandEmptyPass" duration-ms="1012" started-at="2017-05-21T14:58:02Z" data-provider="TestData" finished-at="2017-05-21T14:58:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginEmptyUserandEmptyPass -->
+        <test-method status="PASS" signature="loginEmptyUserdOnly(java.lang.String, java.lang.String)[pri:0, instance:com.testapp.galenframework.regression.TestsCases_galenframeworkpage@5c3bd550]" name="loginEmptyUserdOnly" duration-ms="1058" started-at="2017-05-21T14:58:03Z" data-provider="TestData" finished-at="2017-05-21T14:58:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginEmptyUserdOnly -->
+        <test-method status="PASS" signature="loginPassSpecialChar_CorrectUser(java.lang.String, java.lang.String)[pri:0, instance:com.testapp.galenframework.regression.TestsCases_galenframeworkpage@5c3bd550]" name="loginPassSpecialChar_CorrectUser" duration-ms="1285" started-at="2017-05-21T14:58:04Z" data-provider="TestData" finished-at="2017-05-21T14:58:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[@@@@@#@%@^&(*&(()_+{}PO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPassSpecialChar_CorrectUser -->
+        <test-method status="PASS" signature="loginUserSpecialChar_CorrectPass(java.lang.String, java.lang.String)[pri:0, instance:com.testapp.galenframework.regression.TestsCases_galenframeworkpage@5c3bd550]" name="loginUserSpecialChar_CorrectPass" duration-ms="1283" started-at="2017-05-21T14:58:05Z" data-provider="TestData" finished-at="2017-05-21T14:58:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[$#%@#%@#%$]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUserSpecialChar_CorrectPass -->
+        <test-method status="PASS" signature="loginWrongUserandWrongPass(java.lang.String, java.lang.String)[pri:0, instance:com.testapp.galenframework.regression.TestsCases_galenframeworkpage@5c3bd550]" name="loginWrongUserandWrongPass" duration-ms="1208" started-at="2017-05-21T14:58:06Z" data-provider="TestData" finished-at="2017-05-21T14:58:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser2@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1232]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWrongUserandWrongPass -->
+        <test-method status="PASS" signature="logincorrectUserandPass(java.lang.String, java.lang.String)[pri:0, instance:com.testapp.galenframework.regression.TestsCases_galenframeworkpage@5c3bd550]" name="logincorrectUserandPass" duration-ms="1577" started-at="2017-05-21T14:58:08Z" data-provider="TestData" finished-at="2017-05-21T14:58:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logincorrectUserandPass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testapp.galenframework.regression.TestsCases_galenframeworkpage@5c3bd550]" name="tearDown" is-config="true" duration-ms="222" started-at="2017-05-21T14:58:09Z" finished-at="2017-05-21T14:58:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testapp.galenframework.regression.TestsCases_galenframeworkpage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
